@@ -1,0 +1,64 @@
+    {
+      "type": 1,
+      "className": "/Game/FactoryGame/Resource/BP_ItemPickup_Spawnable.BP_ItemPickup_Spawnable_C",
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.BP_ItemPickup_Spawnable_C_4",
+      "needTransform": 0,
+      "transform": {
+        "rotation": [
+          -2.1329088895072346e-7,
+          -1.2388385073336394e-7,
+          -0.7071067690849304,
+          0.7071067094802856
+        ],
+        "translation": [
+          -166473.875,
+          -67860.890625,
+          24332.08203125
+        ],
+        "scale3d": [
+          1,
+          1,
+          1
+        ]
+      },
+      "wasPlacedInLevel": 0,
+      "entity": {
+        "levelName": "",
+        "pathName": "",
+        "children": [],
+        "properties": [
+          {
+            "name": "mPickupItems",
+            "type": "StructProperty",
+            "index": 0,
+            "value": {
+              "type": "InventoryStack",
+              "properties": [
+                {
+                  "name": "Item",
+                  "type": "StructProperty",
+                  "index": 0,
+                  "value": {
+                    "type": "InventoryItem",
+                    "unk1": "",
+                    "itemName": "/Game/FactoryGame/Resource/Environment/Crystal/Desc_Crystal.Desc_Crystal_C",
+                    "levelName": "",
+                    "pathName": "",
+                    "properties": [
+                      {
+                        "name": "NumItems",
+                        "type": "IntProperty",
+                        "index": 0,
+                        "value": 1
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "missing": ""
+      }
+    }
