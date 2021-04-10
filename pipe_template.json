@@ -1,0 +1,573 @@
+[{
+      "type": 1,
+      "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/Build_Pipeline.Build_Pipeline_C",
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_{{circle_top}}",
+      "needTransform": 1,
+      "transform": {
+        "rotation": [
+          1.0,
+          0,
+          0,
+          0
+        ],
+        "translation": [
+          -165178.09375,
+          -65977.40625,
+          24432.08203125
+        ],
+        "scale3d": [
+          1,
+          1,
+          1
+        ]
+      },
+      "wasPlacedInLevel": 0,
+      "entity": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem",
+        "children": [
+          {
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_{{circle_top}}.PipelineConnection1"
+          },
+          {
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_{{circle_top}}.PipelineConnection0"
+          }
+        ],
+        "properties": [
+          {
+            "name": "mSplineData",
+            "type": "ArrayProperty",
+            "index": 0,
+            "value": {
+              "type": "StructProperty",
+              "structName": "mSplineData",
+              "structType": "StructProperty",
+              "structInnerType": "SplinePointData",
+              "propertyGuid": "00000000000000000000000000000000",
+              "values": [
+                {
+                  "properties": [
+                    {
+                      "name": "Location",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": 2800.0,
+                        "z": 1.7145055188062946e-13
+                      }
+                    },
+                    {
+                      "name": "ArriveTangent",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": 1.7145055188062946e-13,
+                        "z": -2800.0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Location",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": 1979.8989873223331,
+                        "z": -1979.898987322333
+                      }
+                    },
+                    {
+                      "name": "ArriveTangent",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": -1979.898987322333,
+                        "z": -1979.8989873223331
+                      }
+                    }
+                  ]
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Location",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": 3.429011037612589e-13,
+                        "z": -2800.0
+                      }
+                    },
+                    {
+                      "name": "ArriveTangent",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": -2800.0,
+                        "z": -3.429011037612589e-13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Location",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": -1979.898987322333,
+                        "z": -1979.8989873223336
+                      }
+                    },
+                    {
+                      "name": "ArriveTangent",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": -1979.8989873223336,
+                        "z": 1979.898987322333
+                      }
+                    }
+                  ]
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Location",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": -2800.0,
+                        "z": -5.143516556418883e-13
+                      }
+                    },
+                    {
+                      "name": "ArriveTangent",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": -5.143516556418883e-13,
+                        "z": 2800.0
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "name": "mPrimaryColor",
+            "type": "StructProperty",
+            "index": 0,
+            "value": {
+              "type": "LinearColor",
+              "r": 0.10946200042963028,
+              "g": 0.10946200042963028,
+              "b": 0.10946200042963028,
+              "a": 1
+            }
+          },
+          {
+            "name": "mSecondaryColor",
+            "type": "StructProperty",
+            "index": 0,
+            "value": {
+              "type": "LinearColor",
+              "r": 0.10946200042963028,
+              "g": 0.10946200042963028,
+              "b": 0.10946200042963028,
+              "a": 1
+            }
+          },
+		  {
+            "name": "mColorSlot",
+            "type": "ByteProperty",
+            "index": 0,
+            "value": {
+              "enumName": "None",
+              "value": 2
+            }
+          },
+          {
+            "name": "mBuildingID",
+            "type": "IntProperty",
+            "index": 0,
+            "value": 128
+          },
+          {
+            "name": "mBuiltWithRecipe",
+            "type": "ObjectProperty",
+            "index": 0,
+            "value": {
+              "levelName": "",
+              "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_Pipeline.Recipe_Pipeline_C"
+            }
+          },
+          {
+            "name": "mBuildTimeStamp",
+            "type": "FloatProperty",
+            "index": 0,
+            "value": -3632.116455078125
+          }
+        ],
+        "extra": {
+          "items": []
+        },
+        "missing": ""
+      }
+    },
+	{
+      "type": 1,
+      "className": "/Game/FactoryGame/Buildable/Factory/Pipeline/Build_Pipeline.Build_Pipeline_C",
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_{{circle_bottom}}",
+      "needTransform": 1,
+      "transform": {
+        "rotation": [
+          0,
+          0,
+          0,
+          1.0
+        ],
+        "translation": [
+          -165178.09375,
+          -65977.40625,
+          24432.08203125
+        ],
+        "scale3d": [
+          1,
+          1,
+          1
+        ]
+      },
+      "wasPlacedInLevel": 0,
+      "entity": {
+        "levelName": "Persistent_Level",
+        "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem",
+        "children": [
+          {
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_{{circle_bottom}}.PipelineConnection1"
+          },
+          {
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_{{circle_bottom}}.PipelineConnection0"
+          }
+        ],
+        "properties": [
+          {
+            "name": "mSplineData",
+            "type": "ArrayProperty",
+            "index": 0,
+            "value": {
+              "type": "StructProperty",
+              "structName": "mSplineData",
+              "structType": "StructProperty",
+              "structInnerType": "SplinePointData",
+              "propertyGuid": "00000000000000000000000000000000",
+              "values": [
+                {
+                  "properties": [
+                    {
+                      "name": "Location",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": 2800.0,
+                        "z": 1.7145055188062946e-13
+                      }
+                    },
+                    {
+                      "name": "ArriveTangent",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": 1.7145055188062946e-13,
+                        "z": -2800.0
+                      }
+                    }
+                  ]
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Location",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": 1979.8989873223331,
+                        "z": -1979.898987322333
+                      }
+                    },
+                    {
+                      "name": "ArriveTangent",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": -1979.898987322333,
+                        "z": -1979.8989873223331
+                      }
+                    }
+                  ]
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Location",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": 3.429011037612589e-13,
+                        "z": -2800.0
+                      }
+                    },
+                    {
+                      "name": "ArriveTangent",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": -2800.0,
+                        "z": -3.429011037612589e-13
+                      }
+                    }
+                  ]
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Location",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": -1979.898987322333,
+                        "z": -1979.8989873223336
+                      }
+                    },
+                    {
+                      "name": "ArriveTangent",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": -1979.8989873223336,
+                        "z": 1979.898987322333
+                      }
+                    }
+                  ]
+                },
+                {
+                  "properties": [
+                    {
+                      "name": "Location",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": -2800.0,
+                        "z": -5.143516556418883e-13
+                      }
+                    },
+                    {
+                      "name": "ArriveTangent",
+                      "type": "StructProperty",
+                      "index": 0,
+                      "value": {
+                        "type": "Vector",
+                        "x": 0,
+                        "y": -5.143516556418883e-13,
+                        "z": 2800.0
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "name": "mPrimaryColor",
+            "type": "StructProperty",
+            "index": 0,
+            "value": {
+              "type": "LinearColor",
+              "r": 0.10946200042963028,
+              "g": 0.10946200042963028,
+              "b": 0.10946200042963028,
+              "a": 1
+            }
+          },
+          {
+            "name": "mSecondaryColor",
+            "type": "StructProperty",
+            "index": 0,
+            "value": {
+              "type": "LinearColor",
+              "r": 0.10946200042963028,
+              "g": 0.10946200042963028,
+              "b": 0.10946200042963028,
+              "a": 1
+            }
+          },
+		  {
+            "name": "mColorSlot",
+            "type": "ByteProperty",
+            "index": 0,
+            "value": {
+              "enumName": "None",
+              "value": 2
+            }
+          },
+          {
+            "name": "mBuildingID",
+            "type": "IntProperty",
+            "index": 0,
+            "value": 128
+          },
+          {
+            "name": "mBuiltWithRecipe",
+            "type": "ObjectProperty",
+            "index": 0,
+            "value": {
+              "levelName": "",
+              "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_Pipeline.Recipe_Pipeline_C"
+            }
+          },
+          {
+            "name": "mBuildTimeStamp",
+            "type": "FloatProperty",
+            "index": 0,
+            "value": -3632.116455078125
+          }
+        ],
+        "extra": {
+          "items": []
+        },
+        "missing": ""
+      }
+    },
+	{
+      "type": 0,
+      "className": "/Script/FactoryGame.FGPipeConnectionComponent",
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_{{circle_top}}.PipelineConnection1",
+      "outerPathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_{{circle_top}}",
+      "entity": {
+        "properties": [
+          {
+            "name": "mConnectedComponent",
+            "type": "ObjectProperty",
+            "index": 0,
+            "value": {
+              "levelName": "Persistent_Level",
+              "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_{{circle_bottom}}.PipelineConnection0"
+            }
+          }
+        ],
+        "missing": ""
+      }
+    },
+		{
+      "type": 0,
+      "className": "/Script/FactoryGame.FGPipeConnectionComponent",
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_{{circle_top}}.PipelineConnection0",
+      "outerPathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_{{circle_top}}",
+      "entity": {
+        "properties": [
+          {
+            "name": "mConnectedComponent",
+            "type": "ObjectProperty",
+            "index": 0,
+            "value": {
+              "levelName": "Persistent_Level",
+              "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_{{circle_bottom}}.PipelineConnection1"
+            }
+          }
+        ],
+        "missing": ""
+      }
+    },
+		{
+      "type": 0,
+      "className": "/Script/FactoryGame.FGPipeConnectionComponent",
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_{{circle_bottom}}.PipelineConnection1",
+      "outerPathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_{{circle_bottom}}",
+      "entity": {
+        "properties": [
+          {
+            "name": "mConnectedComponent",
+            "type": "ObjectProperty",
+            "index": 0,
+            "value": {
+              "levelName": "Persistent_Level",
+              "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_{{circle_top}}.PipelineConnection0"
+            }
+          }
+        ],
+        "missing": ""
+      }
+    },
+		{
+      "type": 0,
+      "className": "/Script/FactoryGame.FGPipeConnectionComponent",
+      "levelName": "Persistent_Level",
+      "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_{{circle_bottom}}.PipelineConnection0",
+      "outerPathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_{{circle_bottom}}",
+      "entity": {
+        "properties": [
+          {
+            "name": "mConnectedComponent",
+            "type": "ObjectProperty",
+            "index": 0,
+            "value": {
+              "levelName": "Persistent_Level",
+              "pathName": "Persistent_Level:PersistentLevel.Build_Pipeline_C_{{circle_top}}.PipelineConnection1"
+            }
+          }
+        ],
+        "missing": ""
+      }
+    }
+]
