@@ -53,7 +53,7 @@ template = """
 
 class Placer:
     template_path = "pipe_template.json"
-    id_names = ["circle_top", "circle_bottom"]
+    id_names = ["circle_top"]
     def __init__(self, id_offset, x, y, z):
         with open(self.template_path, "r") as t:
             template_s = t.read()
